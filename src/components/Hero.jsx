@@ -1,3 +1,4 @@
+import profile from "../assets/images/profile.jpg";
 function Hero() {
   return (
     <section
@@ -57,11 +58,15 @@ function Hero() {
 
             <div className="absolute inset-0 rounded-full bg-cyan-500 blur-3xl opacity-30"></div>
 
-            <div className="relative w-72 h-72 md:w-96 md:h-96 rounded-full bg-gradient-to-br from-cyan-500 to-blue-600 flex items-center justify-center text-7xl font-bold shadow-2xl">
+           <div className="relative w-72 h-72 md:w-96 md:h-96 rounded-full overflow-hidden shadow-2xl border-4 border-cyan-400">
 
-              IP
+  <img
+    src={profile}
+    alt="Ishimwe Patrick"
+    className="w-full h-full object-cover"
+  />
 
-            </div>
+</div>
 
           </div>
 

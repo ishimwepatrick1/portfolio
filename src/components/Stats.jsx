@@ -1,18 +1,18 @@
 function Stats() {
-  const stats = [
-    {
-      number: "8+",
-      title: "Projects",
-    },
-    {
-      number: "10+",
-      title: "Technologies",
-    },
-    {
-      number: "Always",
-      title: "Learning",
-    },
-  ];
+const stats = [
+  {
+    number: "6+",
+    title: "Core Software Areas",
+  },
+  {
+    number: "10+",
+    title: "Technical Skills",
+  },
+  {
+    number: "Daily",
+    title: "Learning",
+  },
+];
 
   return (
     <section className="bg-slate-900 py-20">

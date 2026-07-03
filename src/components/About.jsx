@@ -1,3 +1,4 @@
+import profile from "../assets/images/profile.jpg";
 import {
   FaGraduationCap,
   FaMapMarkerAlt,
@@ -25,11 +26,15 @@ function About() {
 
           <div className="flex justify-center">
 
-            <div className="w-72 h-72 rounded-3xl bg-gradient-to-br from-cyan-500 to-blue-600 flex items-center justify-center text-7xl font-bold shadow-xl">
+           <div className="w-72 h-72 rounded-3xl overflow-hidden shadow-xl border-4 border-cyan-400">
 
-              IP
+  <img
+    src={profile}
+    alt="Ishimwe Patrick"
+    className="w-full h-full object-cover"
+  />
 
-            </div>
+</div>
 
           </div>
 
@@ -42,38 +47,42 @@ function About() {
             </h3>
 
             <p className="text-gray-300 leading-8 mb-8">
-              I am a Business Information Technology student at the
-              University of Rwanda with a strong passion for software
-              development and problem solving.
+  I'm Ishimwe Patrick, a Business Information Technology student at the
+  University of Rwanda with a solid foundation in software development.
+  Before joining university, I specialized in Software Development in
+  secondary school, where I gained hands-on experience in frontend and
+  backend development, databases, DevOps, system administration, software
+  testing, and emerging technologies such as Web3 and machine learning.
 
-              I enjoy building modern web applications, learning new
-              technologies, and creating solutions that make everyday
-              tasks easier.
-            </p>
+  I enjoy building modern web applications, learning new technologies, and
+  solving real-world problems through technology. My goal is to grow into a
+  full-stack software developer who creates reliable and impactful digital
+  solutions.
+</p>
 
             <div className="space-y-5">
 
-              <div className="flex items-center gap-4">
-                <FaGraduationCap className="text-cyan-400 text-xl" />
-                <span>University of Rwanda</span>
-              </div>
+  <div className="flex items-center gap-4">
+    <FaGraduationCap className="text-cyan-400 text-xl" />
+    <span>University of Rwanda – Business Information Technology</span>
+  </div>
 
-              <div className="flex items-center gap-4">
-                <FaMapMarkerAlt className="text-cyan-400 text-xl" />
-                <span>Kigali, Rwanda</span>
-              </div>
+  <div className="flex items-center gap-4">
+    <FaMapMarkerAlt className="text-cyan-400 text-xl" />
+    <span>Kigali, Rwanda</span>
+  </div>
 
-              <div className="flex items-center gap-4">
-                <FaLaptopCode className="text-cyan-400 text-xl" />
-                <span>Interested in Web & Mobile Development</span>
-              </div>
+  <div className="flex items-center gap-4">
+    <FaLaptopCode className="text-cyan-400 text-xl" />
+    <span>Software Development | React | Java | SQL</span>
+  </div>
 
-              <div className="flex items-center gap-4">
-                <FaLightbulb className="text-cyan-400 text-xl" />
-                <span>Always Learning New Technologies</span>
-              </div>
+  <div className="flex items-center gap-4">
+    <FaLightbulb className="text-cyan-400 text-xl" />
+    <span>Passionate about solving real-world problems with technology</span>
+  </div>
 
-            </div>
+</div>
 
           </div>
 
