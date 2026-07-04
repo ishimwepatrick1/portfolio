@@ -61,7 +61,7 @@ function Hero() {
             </a>
 
             <a
-              href="/Patrick_Ishimwe_CV.pdf"
+              href="/Ishimwe-Patrick-CV.pdf"
               download
               className="px-8 py-3 rounded-xl border border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-slate-900 transition font-semibold"
             >
