@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
+import Education from "./components/Education";
 import Stats from "./components/Stats";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
@@ -13,6 +14,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <Education />
       <Stats />
       <Skills />
       <Projects />

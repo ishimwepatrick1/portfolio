@@ -1,8 +1,8 @@
 function Stats() {
 const stats = [
   {
-    number: "6+",
-    title: "Core Software Areas",
+    number: "1st",
+    title: "Class Rank, 3 Years Running",
   },
   {
     number: "10+",

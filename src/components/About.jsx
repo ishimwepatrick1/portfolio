@@ -4,6 +4,7 @@ import {
   FaMapMarkerAlt,
   FaLaptopCode,
   FaLightbulb,
+  FaAward,
 } from "react-icons/fa";
 
 function About() {
@@ -48,11 +49,12 @@ function About() {
 
             <p className="text-gray-300 leading-8 mb-8">
   I'm Ishimwe Patrick, a Business Information Technology student at the
-  University of Rwanda with a solid foundation in software development.
-  Before joining university, I specialized in Software Development in
-  secondary school, where I gained hands-on experience in frontend and
-  backend development, databases, DevOps, system administration, software
-  testing, and emerging technologies such as Web3 and machine learning.
+  University of Rwanda. Before joining university, I studied Software
+  Development at Collegio Santo Antonio Maria Zaccaria TSS (2022–2025),
+  earning TVET Certificates III, IV, and V and ranking 1st in my class
+  each year. That gave me hands-on experience across frontend and backend
+  development, databases, DevOps, software testing, mobile app development,
+  and emerging areas like machine learning and blockchain.
 
   I enjoy building modern web applications, learning new technologies, and
   solving real-world problems through technology. My goal is to grow into a
@@ -68,13 +70,18 @@ function About() {
   </div>
 
   <div className="flex items-center gap-4">
+    <FaAward className="text-cyan-400 text-xl" />
+    <span>TVET Certificate V in Software Development – Ranked 1st, 3 years running</span>
+  </div>
+
+  <div className="flex items-center gap-4">
     <FaMapMarkerAlt className="text-cyan-400 text-xl" />
     <span>Kigali, Rwanda</span>
   </div>
 
   <div className="flex items-center gap-4">
     <FaLaptopCode className="text-cyan-400 text-xl" />
-    <span>Software Development | React | Java | SQL</span>
+    <span>Software Development | React | Java | PHP | SQL</span>
   </div>
 
   <div className="flex items-center gap-4">

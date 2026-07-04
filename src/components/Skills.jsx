@@ -68,8 +68,15 @@ function Skills() {
           {/* SOFTWARE ENGINEERING */}
           <SkillCard title="Software Engineering">
             <Skill icon="⚙️" name="DevOps" level={80} />
-            <Skill icon="🧪" name="Software Testing" level={85} />
+            <Skill icon="🧪" name="Software Testing / QA" level={85} />
             <Skill icon="🖥️" name="System Administration" level={80} />
+          </SkillCard>
+
+          {/* EMERGING TECH */}
+          <SkillCard title="Emerging Technologies">
+            <Skill icon="📱" name="Flutter (Mobile Apps)" level={70} />
+            <Skill icon="🤖" name="Machine Learning Fundamentals" level={65} />
+            <Skill icon="⛓️" name="Blockchain Fundamentals" level={60} />
           </SkillCard>
 
           {/* CURRENTLY LEARNING */}
