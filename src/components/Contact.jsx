@@ -130,7 +130,7 @@ function Contact() {
           </a>
 
           <a
-            href="https://www.linkedin.com/"
+            href="https://www.linkedin.com/mynetwork/grow/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-cyan-400 transition"

@@ -66,7 +66,7 @@ function Footer() {
             </a>
 
             <a
-              href="https://www.linkedin.com/in/YOUR-LINKEDIN"
+              href="https://www.linkedin.com/mynetwork/grow/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-cyan-400 transition"
